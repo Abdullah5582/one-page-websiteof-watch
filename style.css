@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS of nav */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    position: relative;
+    margin-top: -500px;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+    
+}
+ul li{
+  
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+   
+
+    
+}
+.nav ul li a:hover{
+    cursor: pointer;
+
+}
+.super-head{
+    color: rgb(209, 198, 171);
+    margin-top:  70px;
+    margin-left: 80px;
+    
+}
+
+.super-head h1{
+    font-size: 2rem;
+}
+.super-head button{
+    color: rgb(209, 198, 171);
+    background-color: transparent;
+    width: 130px;
+    padding: 7px;
+    border: 1px solid rgb(209, 198, 171);
+    border-radius: 1px;
+    cursor: pointer;
+}
+button:hover{
+    border-color: rgb(255, 153, 0);
+    color: rgb(255, 153, 0);
+    transition: 0.3s ease-in;
+    transition: 0.3s ease-out;
+    
+}
+.mid-head{
+    color: rgb(79, 79, 79);
+    text-align: center;
+    margin-top: 240px;
+    margin-bottom: 20px;
+    
+}
+
+/* STYLING FEATURED PRODUCT */
+
+.product{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+
+   
+}
+.box{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   width: 320px;
+   height: 420px;
+   margin: 10px;
+  
+}
+.box:hover{
+    border: 2px solid orange;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.box-img{
+    
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+}
+
+/* Styling of Table */
+
+.table-head{
+    text-align: center;
+    color: rgb(79, 79, 79);
+    margin-bottom: 20px;
+
+}
+
+.watch-table{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.watch-table table{
+    width: 100%;
+    border: 2px solid black;
+    padding: 2px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    word-break: break-all;
+    
+}
+
+.watch-table table th, .watch-table table td{
+
+    padding: 12px;
+    border: 1.5px solid #ddd;
+    text-align: center;
+}
+.watch-table table th{
+
+    background-color: #222;
+    color: #fff;
+}
+
+.watch-table table tr:nth-child(even){
+    
+    background-color: #f2f2f2;
+}
+
+.watch-table table tr:hover{
+
+    background-color: #eaeaea;
+}
+
+/* Contact information */
+
+.contact-head{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(79, 79, 79);
+    margin-bottom: 20px;
+
+}
+
+.contact-section{
+
+    display: flex;
+    background-color: black;
+    color: #ddd;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact {
+   padding: 20px;
+   
+}
